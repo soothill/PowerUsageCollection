@@ -6,13 +6,12 @@ import (
 	"flag"
 	"fmt"
 	"io"
-	"net"
 	"net/http"
 	"os"
 	"strings"
 	"time"
 
-	"github.com/grandcat/zeroconf"
+	"powerusagecollection/internal/zeroconf"
 )
 
 // PowerInfo models a simple JSON response for current power usage.

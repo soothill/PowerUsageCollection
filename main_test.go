@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/grandcat/zeroconf"
+	"powerusagecollection/internal/zeroconf"
 )
 
 func TestPickIPv4(t *testing.T) {
